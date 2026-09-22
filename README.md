@@ -10,7 +10,7 @@ models, and other emerging GenAI technologies.
 
 ## 🚀 Projects
 
-### 01 — Latent Faces: DCGAN Face Generation
+### 06 — Latent Faces: DCGAN Face Generation
 
 A Generative AI web application for generating synthetic human
 faces using a Deep Convolutional Generative Adversarial Network.
