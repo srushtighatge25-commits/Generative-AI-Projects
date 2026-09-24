@@ -35,6 +35,33 @@ A Python-based experiment for exploring, cleaning, preprocessing, and analyzing 
 
 ---
 
+### 03 — AI Question & Answer System
+
+A Generative AI question-and-answer web application that uses the pretrained FLAN-T5 language model to generate answers to user questions through a clean and interactive Flask-based interface.
+
+**Concepts:** Large Language Models (LLMs), Natural Language Processing, Text Generation, Sequence-to-Sequence Models, Transformer Models
+
+**Tech Stack:** Python, FLAN-T5, Hugging Face Transformers, PyTorch, Flask, HTML, CSS, JavaScript
+
+**Highlights:**
+
+* AI-powered question answering using `google/flan-t5-base`
+* Interactive Flask-based web interface
+* Adjustable answer length from 30 to 300 tokens
+* Pretrained Transformer model integration using Hugging Face
+* Local AI inference with automatic CUDA/CPU selection
+* Lazy model loading and reuse for faster subsequent responses
+* Example questions and real-time answer generation
+* Input validation and error handling
+* REST API endpoint for question answering
+* Responsive user interface with copy and clear functionality
+* Automated Flask route and validation tests
+
+➡️ **[View Project](https://github.com/srushtighatge25-commits/Question_Answering_System)**
+
+---
+
+
 
 ### 06 — Latent Faces: DCGAN Face Generation
 
