@@ -84,4 +84,31 @@ faces using a Deep Convolutional Generative Adversarial Network.
 
 ---
 
+### 07 — Face Generation using StyleGAN
+
+A Generative AI web application that trains and uses a compact StyleGAN-inspired architecture to generate synthetic 64×64 human faces, with interactive controls for random seeds, batch generation, and style truncation.
+
+**Concepts:** StyleGAN, Generative Adversarial Networks (GANs), Latent Space, Mapping Network, Style-Based Generation, AdaIN, Noise Injection, Truncation Trick, Image Generation
+
+**Tech Stack:** Python, PyTorch, Flask, CelebA Dataset, Jupyter Notebook, HTML, CSS, JavaScript
+
+**Highlights:**
+- Synthetic 64×64 RGB face generation using a StyleGAN-inspired model
+- Mapping of random latent vectors (Z) into intermediate style vectors (W)
+- Style-controlled synthesis using Adaptive Instance Normalization (AdaIN)
+- Per-pixel noise injection for variation in fine image details
+- Adjustable truncation (ψ) for controlling generated-image variation
+- Seed-based generation for reproducible face batches
+- Batch generation of 1–16 synthetic faces
+- Progressive synthesis from a learned 4×4 constant to 64×64 output
+- CelebA-based model training and experimentation
+- Interactive Flask web interface for model inference
+- Automatic CPU/CUDA inference support
+- Downloadable generated faces as PNG images
+- Separate training notebook and exported model checkpoint workflow
+
+➡️ **[View Project](https://github.com/srushtighatge25-commits/Face_Generation_StyleGAN-)**
+
+---
+
 More projects will be added throughout the semester.
