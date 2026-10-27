@@ -85,6 +85,32 @@ A Generative AI application that converts natural-language prompts into images u
 
 ---
 
+### 05 — MNIST Digit Generation using Variational Autoencoder (VAE)
+
+A Generative AI application that learns to generate handwritten digits from the MNIST dataset using a Variational Autoencoder (VAE). It includes a Flask web application for interactively exploring the 2-dimensional latent space and generating new digits using the trained Decoder.
+
+**Concepts:** Variational Autoencoders (VAE), Encoder–Decoder Architecture, Latent Space Representation, Reparameterization Trick, Reconstruction Loss, KL Divergence, Probabilistic Sampling, Image Generation
+
+**Tech Stack:** Python, TensorFlow, Keras, NumPy, Matplotlib, Flask, Pillow, HTML, CSS, JavaScript
+
+**Highlights:**
+- VAE trained on the MNIST handwritten-digit dataset
+- 2-dimensional latent space for visualizing and exploring learned representations
+- Encoder learns latent mean (`z_mean`) and log variance (`z_log_var`)
+- Reparameterization trick enables differentiable latent-space sampling
+- Custom training step combining reconstruction loss and KL divergence
+- Interactive latent map with click, drag, sliders, and keyboard controls
+- Live decoding of selected latent vectors into 28×28 handwritten digits
+- Random digit generation by sampling latent vectors from the standard normal distribution \(N(0, I)\)
+- Interactive random samples that link back to their corresponding latent-space coordinates
+- Trained Decoder exported in Keras format for standalone image generation
+- Flask API for digit generation, random sampling, and latent-map access
+- Google Colab notebook for training, visualization, and model export
+
+➡️ **[View Project](https://github.com/srushtighatge25-commits/New-Image-Generation---MNIST_using-VAE)**
+
+---
+
 
 
 ### 06 — Latent Faces: DCGAN Face Generation
