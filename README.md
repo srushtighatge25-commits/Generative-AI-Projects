@@ -189,4 +189,35 @@ A Generative AI project that fine-tunes Meta's pretrained MusicGen model using L
 
 ---
 
+### 09 — Personalized AI Assistant: RAG + QLoRA
+
+A personalized AI assistant powered by an open-source large language model that answers questions about user-provided documents. The project compares four approaches: a base LLM, Retrieval-Augmented Generation (RAG), QLoRA fine-tuning, and RAG combined with fine-tuning.
+
+**Concepts:** Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), QLoRA, Parameter-Efficient Fine-Tuning (PEFT), Semantic Search, Vector Databases, Text Embeddings, 4-bit Quantization
+
+**Tech Stack:** Python, PyTorch, Hugging Face Transformers, Qwen2.5, PEFT, bitsandbytes, Sentence-Transformers, FAISS, Gradio, Flask, HTML, CSS, JavaScript, Google Colab
+
+**Highlights:**
+- Personalized question answering using user-provided documents
+- Comparison of four LLM inference modes: Base Model, RAG, Fine-Tuned, and RAG + Fine-Tuned
+- QLoRA fine-tuning of the Qwen2.5-1.5B-Instruct model
+- 4-bit NF4 quantization for memory-efficient model loading
+- Semantic document retrieval using MiniLM embeddings and FAISS
+- Document chunking with configurable chunk size and overlap
+- Retrieval of the top-3 relevant passages for context-grounded answers
+- Interactive Gradio interface with Ask, Compare All Four, and Documents tabs
+- Optional Flask-based local web interface
+- Exportable LoRA adapters, FAISS index, document chunks, and configuration
+- Experimental evaluation highlighting the strengths and limitations of RAG and fine-tuning
+
+**Key Learning:** RAG provides relevant external knowledge, while fine-tuning adapts model behavior. Combining both requires training examples that teach the model how to interpret retrieved context.
+
+➡️ **[View Project](https://github.com/srushtighatge25-commits/Personalized-AI-Assistant)**
+
+📓 **[Open Training Notebook in Google Colab](https://colab.research.google.com/github/srushtighatge25-commits/personalized-ai-assistant-rag-lora/blob/main/notebooks/01_Train_RAG_QLoRA.ipynb)**
+
+🖼️ **[View Demo Screenshots](https://github.com/srushtighatge25-commits/Personalized-AI-Assistant/tree/main/docs/screenshots)**
+
+---
+
 More projects will be added throughout the semester.
