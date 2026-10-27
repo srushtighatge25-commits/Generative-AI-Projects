@@ -161,4 +161,32 @@ A Generative AI web application that trains and uses a compact StyleGAN-inspired
 
 ---
 
+### 08 — MusicGen: Fine-Tuning for Novel Music Compositions
+
+A Generative AI project that fine-tunes Meta's pretrained MusicGen model using Low-Rank Adaptation (LoRA) to generate novel instrumental music clips from text prompts. The project uses a genre-labelled audio dataset and provides a web-based MusicGen Studio for generating, playing, and downloading music.
+
+**Concepts:** Audio Generation, MusicGen, Transformer Architecture, Text-to-Audio Generation, EnCodec Audio Tokenization, LoRA Fine-Tuning, Transfer Learning, Latent Audio Representations
+
+**Tech Stack:** Python, PyTorch, Hugging Face Transformers, PEFT, Hugging Face Datasets, MusicGen, T5, EnCodec, Flask, HTML, CSS, JavaScript, Google Colab
+
+**Highlights:**
+- Fine-tuning of Meta's `facebook/musicgen-small` pretrained model
+- LoRA-based parameter-efficient fine-tuning with rank 16
+- Genre-labelled music dataset with 10 music genres
+- Audio preprocessing and text-caption generation from genre labels
+- Text-conditioned instrumental music generation
+- Base model vs. fine-tuned model output comparison
+- Experiments with both seen genres and an unseen genre
+- Google Colab notebook covering the complete fine-tuning pipeline
+- MusicGen Studio web interface with prompt input and duration selection
+- Audio playback and WAV download support
+- Exportable LoRA adapters for reuse with the pretrained model
+
+➡️ **[View Project](https://github.com/srushtighatge25-commits/MusicGen)**
+
+📓 **[Open Fine-Tuning Notebook](https://github.com/srushtighatge25-commits/MusicGen/blob/main/MusicGen_Finetuning_Novel_Compositions_FIXED.ipynb)**
+
+
+---
+
 More projects will be added throughout the semester.
