@@ -35,6 +35,32 @@ A Python-based experiment for exploring, cleaning, preprocessing, and analyzing 
 
 ---
 
+### 02 — TensorFlow Tensor Operations for Generative AI
+
+A hands-on experiment exploring basic Python programming and TensorFlow 2 tensor operations to build a foundation for Generative AI and deep learning applications.
+
+**Concepts:** Python Fundamentals, TensorFlow 2, Tensors, Tensor Rank and Shape, Tensor Arithmetic, Mathematical Operations, Reshaping, NumPy Interoperability, Performance Comparison
+
+**Tech Stack:** Python, TensorFlow 2, NumPy, Google Colab
+
+**Highlights:**
+- Implementation of Python variables, data types, loops, functions, and lists
+- TensorFlow and NumPy library imports and version verification
+- Creation of scalar, vector, matrix, and higher-dimensional tensors
+- Exploration of tensor shape, rank, and data types
+- Basic tensor arithmetic and mathematical functions
+- Reshaping tensors into different dimensions
+- Conversion of TensorFlow tensors into NumPy arrays
+- Execution-time comparison between Python lists, NumPy, and TensorFlow
+- Mini-application demonstrating tensors in a Generative AI context
+- Analysis of the importance of tensors in deep learning and Generative AI
+
+📓 **[Open Experiment 02 Notebook](Experiment_2_TensorFlow_Tensor_Operations.ipynb)**
+
+🚀 **[Open in Google Colab](https://colab.research.google.com/github/srushtighatge25-commits/Generative-AI-Projects/blob/main/notebooks/Experiment_2_TensorFlow_Tensor_Operations.ipynb)**
+
+---
+
 ### 03 — AI Question & Answer System
 
 A Generative AI question-and-answer web application that uses the pretrained FLAN-T5 language model to generate answers to user questions through a clean and interactive Flask-based interface.
