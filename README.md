@@ -61,6 +61,30 @@ A Generative AI question-and-answer web application that uses the pretrained FLA
 
 ---
 
+### 04 — Text-to-Image Generation using Stable Diffusion XL
+
+A Generative AI application that converts natural-language prompts into images using the pre-trained Stable Diffusion XL (SDXL) diffusion model, with an interactive Gradio interface in Google Colab and an optional Flask-based web application.
+
+**Concepts:** Text-to-Image Generation, Diffusion Models, Text Conditioning, Iterative Denoising, Prompt Engineering, Negative Prompting, Guidance Scale, Image Generation
+
+**Tech Stack:** Python, PyTorch, Stable Diffusion XL, Hugging Face Diffusers, Transformers, Accelerate, Safetensors, Gradio, Flask, HTML, CSS, JavaScript
+
+**Highlights:**
+- Text-to-image generation using the pre-trained `stabilityai/stable-diffusion-xl-base-1.0` model
+- Interactive Gradio interface running in Google Colab
+- Customizable text prompts and optional negative prompts
+- Adjustable inference steps and guidance scale
+- Image generation using GPU-accelerated inference with FP16 precision
+- Comparison of generation settings using different inference steps and guidance scales
+- Optional Flask web application with a custom front end
+- Generated image preview and download functionality
+- Prompt engineering techniques for improving image results
+- Support for running the notebook using a Google Colab GPU runtime
+
+➡️ **[View Project](https://github.com/srushtighatge25-commits/text_to_image_sdxl)**
+
+---
+
 
 
 ### 06 — Latent Faces: DCGAN Face Generation
